@@ -1,0 +1,49 @@
+<!--Öznitelik target, bağlantılı belgenin nerede açılacağını belirtir.
+
+Öznitelik targetaşağıdaki değerlerden birine sahip olabilir:
+
+_self- Varsayılan. Belgeyi tıklandığı pencerede/sekmede açar
+_blank- Belgeyi yeni bir pencerede veya sekmede açar
+_parent- Belgeyi ana çerçevede açar
+_top- Belgeyi pencerenin tam gövdesinde açar-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p><a href="mailto:ivargun34@gmail.com">e posta gonder</a></p>
+	
+	<button onclick="document.location='default.asp'">HTML Tutorial</button>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+</head>
+<body>
+
+<h2>Link Button</h2>
+<p>A link styled as a button:</p>
+<a href="default.asp" target="_blank">This is a link</a>
+
+</body>
+</html>
